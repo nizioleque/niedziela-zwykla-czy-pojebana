@@ -1,4 +1,4 @@
-# [Niedziela handlowa API](niedziela-zwykla-czy-pojebana.niziolek.dev)
+# [Niedziela handlowa API](https://niedziela-zwykla-czy-pojebana.niziolek.dev)
 
 ```
 GET niedziela-zwykla-czy-pojebana.niziolek.dev/api/2024-12-15
