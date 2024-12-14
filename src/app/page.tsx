@@ -6,7 +6,7 @@ export default function Home() {
         <h2>Niedziela handlowa API</h2>
         <p>Supported years: 2024, 2025</p>
         <pre>
-          GET /api/2024-12-15
+          GET /api/2024-12-08
           <br />
           {`{\n\t"jaka": "zwykla"\n}`}
         </pre>
