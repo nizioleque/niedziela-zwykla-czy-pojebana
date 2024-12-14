@@ -24,6 +24,15 @@ export async function GET(
     );
   }
 
+  // Check if it's a Sunday
+  const dayOfWeek = new Date(date).getDay();
+  if (dayOfWeek !== 0) {
+    return NextResponse.json(
+      { error: "Date must be a Sunday" },
+      { status: 400 }
+    );
+  }
+
   const isHandlowa = handlowe.includes(date);
 
   return NextResponse.json({
