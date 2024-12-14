@@ -1,7 +1,10 @@
 import handlowe from "@/assets/handlowe.json";
 import { NextResponse } from "next/server";
 
-export async function GET({ params }: { params: { date: string } }) {
+export async function GET(
+  request: Request,
+  { params }: { params: { date: string } }
+) {
   const { date } = params;
 
   // Validate date parameter
